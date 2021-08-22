@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:protiaa_ui/view/pages/home_page.dart';
 
 void main() {
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomePage(),
-      theme: ThemeData(scaffoldBackgroundColor: Colors.grey),
+      theme: ThemeData(
+          scaffoldBackgroundColor: Colors.grey, accentColor: Colors.white),
     );
   }
 }
